@@ -34,6 +34,11 @@ public class Gaullois {
 	}
 
 	public static void main(String[] args) {
-		//TODO créer un main permettant de tester la classe Gaulois
+		//TODO créer un main permettant de tester la classe Gaullois
+		Gaullois Astérix = new Gaullois("Astérix",8);
+		System.out.println(Astérix);
+		Astérix.parler(Astérix.prendreParole());;
+		Romain RomaisDeCon = new Romain("Débilos",1);
+		Astérix.frapper(RomaisDeCon);
 	}
 }
