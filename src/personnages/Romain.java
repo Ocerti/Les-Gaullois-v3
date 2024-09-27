@@ -34,9 +34,6 @@ public class Romain {
 	
 	public static void main(String[] args) {
 		//TODO créer un main permettant de tester la classe Romains
-		Romain Ravus = new Romain("Ravus",2);
-		Ravus.parler(Ravus.prendreParole());;
-		Ravus.recevoirCoup(1);
 	}
 }
 
