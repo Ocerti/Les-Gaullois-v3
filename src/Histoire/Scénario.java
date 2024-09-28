@@ -14,7 +14,7 @@ public class Scénario {
 		panoramix.parler("Je vais aller préparer une petit potion...");
 		panoramix.preparerPotion(obélix);
 		panoramix.preparerPotion(astérix);
-		astérix.parler("Bonjour � tous");
+		astérix.parler("Bonjour à tous");
 		minus.parler("UN GAU... UN GAUGAU... ");
 		astérix.frapper(minus);
 		astérix.frapper(minus);
